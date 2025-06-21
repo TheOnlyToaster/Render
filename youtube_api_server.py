@@ -3,7 +3,7 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 import os
 
-YOUTUBE_API_KEY = os.getenv("AIzaSyAq--GwhFEwrU0Cgsl3FPqxcJy2cL5MLDE", "AIzaSyAq--GwhFEwrU0Cgsl3FPqxcJy2cL5MLDE")
+YOUTUBE_API_KEY = os.getenv("", "")
 
 def clean_search_query(query):
     return query.strip()
